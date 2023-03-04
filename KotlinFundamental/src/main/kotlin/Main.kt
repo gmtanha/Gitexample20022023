@@ -1,6 +1,3 @@
-import sun.plugin2.message.Message
-import kotlin.random.Random
-
 fun main(args: Array<String>) {
     //     dấu // là comment
     //    1: khai báo biến
