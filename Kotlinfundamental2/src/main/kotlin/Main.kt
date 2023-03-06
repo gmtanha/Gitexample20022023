@@ -7,7 +7,43 @@ fun main(args: Array<String>) {
     // Try adding program arguments via Run/Debug configuration.
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
 //        println("Program arguments: ${args.joinToString()}")
-
+//    var number1 = 5
+//    var number2 = 7
+//    var result = ++number1 - --number2 + number1++ - number2++ + number2--
+//    6 - --number2 + number1++ - number2++ + number2--; a=6, b=7
+//    6 - 6 + number1++ - number2++ + number2--; a=6, b=6
+//    6 - 6 + 6 - number2++ + number2--; a=7, b=6
+//    6 - 6 + 6 - 6 + number2--; a=7, b=7
+//    6 - 6 + 6 - 6 + 7; a=7, b=6
+//    var result = ++number1 - --number2 + number1++ - number2++ + number2--
+//    println("Number1: $number1")
+//    println("Number2: $number2")
+//    println("Result: $result")
+//    var weight:Float = 74.5f
+//    var height:Float = 1.75f
+//    var bmi = weight/(height*height)
+//    var message:String
+//    var maxValueThin = 18.5f
+//    var maxValueNomal = 24.9f
+//    var maxValueOverWeight = 29.9f
+//    var maxValueFatLevel1 = 34.9f
+//    var maxValueFatLevel2 = 39.9f
+//
+//    if (bmi<maxValueThin){
+//        message = "Gầy"
+//    }else if (bmi<maxValueNomal){
+//        message = "Bình thường"
+//    }else if (bmi<maxValueOverWeight){
+//        message = "Hơi béo"
+//    }else if (bmi<maxValueFatLevel1){
+//        message = "Béo cấp độ 1"
+//    }else if (bmi<maxValueFatLevel2){
+//        message = "Béo cấp độ 2"
+//    }else {
+//        message = "Béo cấp độ 3"
+//    }
+//    println("Chỉ số khối cơ thể: $bmi")
+//    println("Tình trạng sức khỏe: $message")
     //    var month = 6
     //    var message = when (month){
     //        in 1..3 -> "Quý 1"
