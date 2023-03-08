@@ -132,10 +132,42 @@ fun main(args: Array<String>) {
 //        println(count)
 //        count = Random.nextInt(100)
 //    }
-    showMessage("Hello")
+//    showMessage("Hello")
+//
+//}
+//
+//fun showMessage(message: String) {
+//    println(message)
+//
+//    var cat = Animal("Kity","1.2 Kg")
+////    cat.name = "Kity"
+////    cat.weight = "1.2 Kg"
+//
+//    var cat2 = Animal("Doremon", "0.5 Kg")
+////    cat.name = "Doremon"
+////    cat.weight = "0.5 Kg"
+//    cat.printInfo()
+//    cat2.printInfo()
+//    println("Name: ${cat.name}, weight: ${cat.weight}")
+//    println("Name: ${cat2.name}, weight: ${cat2.weight}")
 
+    // Tinh dong goi: The hien viec cac thong tin cua doi tuong nen su dung qua cac
+    // phuong thuc getter va setter de truy cap
+
+    // Tinh ke thua: Nâng cấp các chức năng mới
+
+//        var cat1 = Cat("Kity","1.2 Kg","White")
+//        cat1.printInfo()
+
+    // Tính đa hình
+
+//    var cat1 = Cat("Kity","1.2 Kg","White")
+//    cat1.printInfo()
+    //    Tính trượu tượng
+    var pizzaStore = PizzaStore()
+    pizzaStore.orderPizza(PizzaCheese())
 }
 
-fun showMessage(message: String) {
-    println(message)
-}
+
+
+
