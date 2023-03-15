@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:background="#f20"
+        android:textSize="25dp"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        android:layout_height="wrap_content"
+        android:text="1" />
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:paddingHorizontal="40dp"
+        android:background="#f20"
+        android:textSize="25dp"
+        android:layout_below="@+id/txt1"
+        android:layout_toRightOf="@+id/txt1"
+        android:paddingVertical="10dp"
+        android:layout_height="wrap_content"
+        android:text="2" />
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:paddingHorizontal="40dp"
+        android:layout_below="@+id/txt2"
+        android:background="#f20"
+        android:textSize="25dp"
+        android:layout_toRightOf="@+id/txt2"
+        android:paddingVertical="10dp"
+        android:layout_height="wrap_content"
+        android:text="3" />
+    <TextView
+        android:id="@+id/txt4"
+        android:background="#f20"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:paddingHorizontal="40dp"
+        android:layout_toRightOf="@+id/txt3"
+        android:layout_below="@+id/txt3"
+        android:paddingVertical="10dp"
+        android:layout_height="wrap_content"
+        android:text="4" />
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:paddingHorizontal="40dp"
+        android:layout_below="@+id/txt4"
+        android:layout_toLeftOf="@id/txt4"
+        android:background="#f20"
+        android:textSize="25dp"
+        android:paddingVertical="10dp"
+        android:layout_height="wrap_content"
+        android:text="5" />
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:paddingHorizontal="40dp"
+        android:background="#f20"
+        android:textSize="25dp"
+        android:layout_below="@+id/txt5"
+        android:layout_toLeftOf="@id/txt5"
+        android:paddingVertical="10dp"
+        android:layout_height="wrap_content"
+        android:text="6" />
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:paddingHorizontal="40dp"
+        android:background="#f20"
+        android:textSize="25dp"
+        android:layout_below="@+id/txt6"
+        android:layout_toLeftOf="@id/txt6"
+        android:paddingVertical="10dp"
+        android:layout_height="wrap_content"
+        android:text="7" />
+</RelativeLayout>
