@@ -156,8 +156,8 @@ fun main(args: Array<String>) {
 
     // Tinh ke thua: Nâng cấp các chức năng mới
 
-//        var cat1 = Cat("Kity","1.2 Kg","White")
-//        cat1.printInfo()
+        var cat1 = Cat("Kity","1.2 Kg","White")
+        cat1.printInfo()
 
     // Tính đa hình
 
