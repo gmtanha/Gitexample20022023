@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class SharedPreferencesUtils(context: Context):Builder {
     private var sharedPreferences: SharedPreferences
-    private var editor: SharedPreferences.Editor
+    private var editor: Editor
     init {
         sharedPreferences = context.getSharedPreferences("App_cache",
             AppCompatActivity.MODE_PRIVATE
