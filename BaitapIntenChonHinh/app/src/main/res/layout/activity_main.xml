@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:textColor="#f20"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="30dp"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+    <ImageView
+        android:id="@+id/imgRandom"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/bo" />
+
+    <TextView
+        android:id="@+id/tvLabel"
+        android:textSize="30dp"
+        android:textAllCaps="true"
+        android:background="#FFEB3B"
+        android:textColor="#f20"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn hình bên dưới" />
+
+    <ImageView
+        android:id="@+id/imgPick"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/nophoto" />
+</LinearLayout>
