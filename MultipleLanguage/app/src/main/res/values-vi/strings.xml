@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bài học đa ngôn ngữ</string>
+    <string name="app_name">B</string>
+    <string name="multilang">Đa ngôn ngữ</string>
+    <string name="multilang">Đa</string>
+    <string name="show_toast">Hiển thị tin nhắn</string>
+    <string name="toast">Đây là tin nhắn</string>
+</resources>
