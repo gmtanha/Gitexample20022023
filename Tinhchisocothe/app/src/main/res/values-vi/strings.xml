@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tinhchisocothe</string>
+    <string name="text_TieuDe">Tình Trạng Sức Khỏe</string>
+    <string name="hint_TrongLuong">Nhập trọng lượng cơ thể</string>
+    <string name="hint_ChieuCao">Nhập chiều cao cơ thể</string>
+    <string name="text_XacNhan">Bấm nhận kết quả</string>
+    <string name="text_BMI">Chỉ số cơ thể</string>
+    <string name="text_Message">Tình trạng sức khỏe</string>
+</resources>
